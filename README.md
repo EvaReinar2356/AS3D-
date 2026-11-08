@@ -10,7 +10,7 @@ While we leverage proven mathematical patterns where optimal, we frequently engi
 
 Traditional deep-learning and execution frameworks (e.g., PyTorch, legacy CUDA contexts) introduce non-trivial overhead through continuous memory allocation, context switching, and static graph evaluations. 
 
-**AS3D / ERE (Ephemeral Runtime Environment)** shifts the computational focus from *simulating dynamic processes via external static formulas* to **direct environment reactivity at the hardware level**. By implementing an autopoietic execution loop directly over GPU resources, the system achieves sub-millisecond signal routing and state updates.
+**ADR** shifts the computational focus from *simulating dynamic processes via external static formulas* to **direct environment reactivity at the hardware level**. By implementing an autopoietic execution loop directly over GPU resources, the system achieves sub-millisecond signal routing and state updates.
 
 ---
 
